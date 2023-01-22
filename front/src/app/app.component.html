@@ -1,0 +1,12 @@
+<mat-toolbar color="primary">
+  <span>Todo Application</span>
+  <span class="header-spacer"></span>
+  <button mat-button [routerLink]="['/']">HOME</button>
+  <button mat-button [routerLink]="['/todos']">TODOS</button>
+</mat-toolbar>
+
+<div class="container-fluid">
+  <div style="overflow: hidden">
+    <router-outlet></router-outlet>
+  </div>
+</div>
